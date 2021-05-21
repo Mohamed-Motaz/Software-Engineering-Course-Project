@@ -1,0 +1,14 @@
+C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\bin\Debug\Software-Engineering-Course-Project.exe.config
+C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\bin\Debug\Software-Engineering-Course-Project.exe
+C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\bin\Debug\Software-Engineering-Course-Project.pdb
+C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\bin\Debug\Oracle.DataAccess.dll
+C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software-Engineering-Course-Project.csprojAssemblyReference.cache
+C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software_Engineering_Course_Project.ConnectedMode.resources
+C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software_Engineering_Course_Project.DisconnectedMode.resources
+C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software_Engineering_Course_Project.Form1.resources
+C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software_Engineering_Course_Project.Properties.Resources.resources
+C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software-Engineering-Course-Project.csproj.GenerateResource.cache
+C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software-Engineering-Course-Project.csproj.CoreCompileInputs.cache
+C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software-Engineering-Course-Project.csproj.CopyComplete
+C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software-Engineering-Course-Project.exe
+C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software-Engineering-Course-Project.pdb
