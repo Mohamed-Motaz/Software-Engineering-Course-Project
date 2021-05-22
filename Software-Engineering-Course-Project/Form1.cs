@@ -15,24 +15,24 @@ namespace Software_Engineering_Course_Project
     public partial class Form1 : Form
     {
         private List<string> tableCreationScripts = new List<string>() 
-        { "drop table users", 
+        {   "drop table users", 
             "drop table customers",
             @"Create Table Users
-                (userID number(8)  primary key, isAdmin varchar2(1), userName varchar2(50), userEmail varchar2(50) unique)",
+                (userID number(8)  primary key, isAdmin varchar2(1), userName varchar2(50), userEmail varchar2(50) unique, salary number(6))",
             @"Create Table Customers
                 ( CustomerID number(8)  primary key,  CustomerName varchar2(50),  CustomerEmail varchar2(50) unique,  CustomerPlan varchar2(1))" };
 
         private List<string> insertDataScripts = new List<string>() 
         { @"insert into Users values
-            (1, 'y', 'Mohamed Ahmed', 'mohamed.ahmed34@gmail.com')",
+            (1, 'y', 'Mohamed Ahmed', 'mohamed.ahmed34@gmail.com', 65500)",
             @"insert into Users values
-            (2, 'y', 'Rawan Ahmed', 'rawan.ahmed4@gmail.com')",
+            (2, 'y', 'Rawan Ahmed', 'rawan.ahmed4@gmail.com', 6000)",
             @"insert into Users values
-            (3, 'n', 'Kareem Ezzat', 'kareemezzat20@gmail.com')",
+            (3, 'n', 'Kareem Ezzat', 'kareemezzat20@gmail.com', 80000)",
             @"insert into Users values
-            (4, 'n', 'Mohamed Motaz', 'mohamedmotar87@gmail.com')",
+            (4, 'n', 'Mohamed Motaz', 'mohamedmotar87@gmail.com', 7542)",
             @"insert into Users values
-            (5, 'n', 'Ali Anwar', 'alianwar123@gmail.com')",
+            (5, 'n', 'Ali Anwar', 'alianwar123@gmail.com', 4000)",
             @"Insert into Customers values
             (1,'Kristen Stewart', 'Kristen_Stewart@gmail.com','A')",
             @"Insert into Customers values
@@ -47,12 +47,16 @@ namespace Software_Engineering_Course_Project
             (6,'Ralph Fiennes', 'Ralph_Fiennes@gmail.com','B')"
         };
 
-        private string connectionString = "data source=orcl; user id=scott; password=tiger;";
+        private string connectionString = "data source=orcl; user id=hr; password=hr;";
         OracleConnection conn;
         public Form1()
         {
             InitializeComponent();
             
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void connectedBtn_Click(object sender, EventArgs e)
@@ -64,6 +68,19 @@ namespace Software_Engineering_Course_Project
         private void disconnectedBtn_Click(object sender, EventArgs e)
         {
             DisconnectedMode form = new DisconnectedMode();
+            form.Show();
+        }
+
+        private void reportBtn_Click(object sender, EventArgs e)
+        {
+            Report form = new Report();
+            form.Show();
+        }
+
+
+        private void summReportBtn_Click(object sender, EventArgs e)
+        {
+            SummReport form = new SummReport();
             form.Show();
         }
 
@@ -98,5 +115,6 @@ namespace Software_Engineering_Course_Project
             MessageBox.Show("All tables created and all data added succesfully");
             conn.Dispose();
         }
+
     }
 }
