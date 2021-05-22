@@ -15,7 +15,7 @@ namespace Software_Engineering_Course_Project
     public partial class ConnectedMode : Form
     {
         OracleConnection conn;
-        private string connectionString = "data source=orcl; user id=scott; password=tiger;";
+        private string connectionString = "data source=orcl; user id=hr; password=hr;";
         public ConnectedMode()
         {
             InitializeComponent();
