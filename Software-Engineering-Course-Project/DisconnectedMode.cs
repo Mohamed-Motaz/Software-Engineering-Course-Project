@@ -50,7 +50,7 @@ namespace Software_Engineering_Course_Project
             MessageBox.Show("Table Updated");
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void searchIdBtn_Click(object sender, EventArgs e)
         {
             String connectionText = "Data Source=orcl; User Id=hr; Password=hr;";
             String commandText = "Select * From users Where userid = :id";
