@@ -84,3 +84,5 @@ C:\Users\LENOVO\Downloads\Safe-Software-Engineering-Course-Project\Software-Engi
 C:\Users\LENOVO\Downloads\Safe-Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software-Engineering-Course-Project.pdb
 C:\Users\LENOVO\Downloads\Safe-Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software_Engineering_Course_Project.AddOrEditCustomer.resources
 C:\Users\LENOVO\Downloads\Safe-Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software_Engineering_Course_Project.AddOrEditUser.resources
+C:\Users\LENOVO\Desktop\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software_Engineering_Course_Project.AddOrEditCustomer.resources
+C:\Users\LENOVO\Desktop\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software_Engineering_Course_Project.AddOrEditUser.resources
