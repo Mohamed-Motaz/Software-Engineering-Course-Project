@@ -58,11 +58,15 @@ namespace Software_Engineering_Course_Project
             cmd.Parameters.Add("id", textVersionComboBox.Text);
             cmd.Parameters.Add("name", customerNameTxtBox.Text);
             cmd.Parameters.Add("email", customerEmailTxtBox.Text);
-            cmd.Parameters.Add("plan", customerPlanComboBox.SelectedItem.ToString());
+            if (customerPlanComboBox.Text != "A" && customerPlanComboBox.Text != "B" && customerPlanComboBox.Text != "C")
+            {
+                MessageBox.Show("Please choose an appropriate plan");
+                return;
+            }
+            cmd.Parameters.Add("plan", customerPlanComboBox.Text.ToString());
 
             int r = cmd.ExecuteNonQuery();
-            if (r != -1)
-                MessageBox.Show("Customer successfully created");
+             MessageBox.Show("Customer successfully updated");
 
         }
         private void AddCustomer()
@@ -71,17 +75,29 @@ namespace Software_Engineering_Course_Project
             cmd.Connection = conn;
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.CommandText = "insertCustomer";
+            
+            string id = "";
             if (textVersionComboBox.Text.Length != 0)
-                cmd.Parameters.Add("id", textVersionComboBox.Text);
+                id = textVersionComboBox.Text;
             else
-                cmd.Parameters.Add("id", getCustomerId().ToString());
+                id = getCustomerId().ToString();
+            cmd.Parameters.Add("id", id);
             cmd.Parameters.Add("name", customerNameTxtBox.Text);
             cmd.Parameters.Add("email", customerEmailTxtBox.Text);
-            cmd.Parameters.Add("plan", customerPlanComboBox.SelectedItem.ToString());
-
+            if (customerPlanComboBox.Text != "A" && customerPlanComboBox.Text != "B" && customerPlanComboBox.Text != "C")
+            {
+                MessageBox.Show("Please choose an appropriate plan");
+                return;
+            }
+            cmd.Parameters.Add("plan", customerPlanComboBox.Text.ToString());
             int r = cmd.ExecuteNonQuery();
-            if (r != -1)
-                MessageBox.Show("Customer successfully created");
+            
+            textVersionComboBox.Items.Add(id);                
+            MessageBox.Show("Customer successfully created");
+            textVersionComboBox.SelectedItem = id;
+            
+
+
         }
         private int getCustomerId()
         {
