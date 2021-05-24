@@ -35,3 +35,5 @@ C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Enginee
 C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\x64\Debug\Software_Engineering_Course_Project.AddOrEditUser.resources
 C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\x64\Debug\Software_Engineering_Course_Project.Report.resources
 C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\x64\Debug\Software_Engineering_Course_Project.SummReport.resources
+C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\x64\Debug\Software_Engineering_Course_Project.ViewAllCustomers.resources
+C:\Users\moham\source\repos\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\x64\Debug\Software_Engineering_Course_Project.ViewAllUsers.resources
