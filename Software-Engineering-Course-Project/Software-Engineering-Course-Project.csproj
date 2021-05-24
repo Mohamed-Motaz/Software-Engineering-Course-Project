@@ -79,6 +79,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddOrEditCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOrEditCustomer.Designer.cs">
+      <DependentUpon>AddOrEditCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddOrEditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOrEditUser.Designer.cs">
+      <DependentUpon>AddOrEditUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConnectedMode.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +141,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddOrEditCustomer.resx">
+      <DependentUpon>AddOrEditCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOrEditUser.resx">
+      <DependentUpon>AddOrEditUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConnectedMode.resx">
       <DependentUpon>ConnectedMode.cs</DependentUpon>
     </EmbeddedResource>

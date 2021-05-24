@@ -112,8 +112,53 @@ namespace Software_Engineering_Course_Project
                 }
                 catch { }
             }
+            CreateProcedures();
+            
             MessageBox.Show("All tables created and all data added succesfully");
             conn.Dispose();
+        }
+        private void CreateProcedures()
+        {
+            List<string> procedures = new List<string>()
+            {
+                @"create or replace PROCEDURE GetAllCustomers(customers out sys_refcursor)
+                    as
+                    begin
+                    open customers for
+                    select *
+                    from customers;
+                    end;",
+                @"create or replace PROCEDURE GetMaxCustomerId(mx out number)
+                    as
+                    begin
+                    select max(customerid)
+                    into mx
+                    from customers;
+                    end;",
+                @"create or replace PROCEDURE insertCustomer(id in number, name in varchar2, email in varchar2, plan in VARCHAR2)
+                    as
+                    begin
+                    insert into customers
+                    values (id, name, email, plan);
+                    end;",
+                @"create or replace PROCEDURE updateCustomer(id in number, name in varchar2, email in varchar2, plan in VARCHAR2)
+                    as
+                    begin
+                    update customers
+                    set customername = name, customeremail = email, customerplan = plan
+                    where customerid = id;
+                    end;"
+
+            };
+            foreach(string procedure in procedures)
+            {
+            OracleCommand cmd = new OracleCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = conn;
+            cmd.CommandText = procedure;
+            cmd.ExecuteNonQuery();
+            }
+            
         }
 
     }
