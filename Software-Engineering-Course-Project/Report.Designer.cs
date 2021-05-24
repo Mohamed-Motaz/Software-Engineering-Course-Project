@@ -57,7 +57,7 @@ namespace Software_Engineering_Course_Project
             this.cb_plan.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.cb_plan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cb_plan.FormattingEnabled = true;
-            this.cb_plan.Location = new System.Drawing.Point(814, 102);
+            this.cb_plan.Location = new System.Drawing.Point(814, 103);
             this.cb_plan.Margin = new System.Windows.Forms.Padding(20);
             this.cb_plan.Name = "cb_plan";
             this.cb_plan.Size = new System.Drawing.Size(95, 33);
@@ -126,7 +126,7 @@ namespace Software_Engineering_Course_Project
             this.cb_cust_id.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.cb_cust_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cb_cust_id.FormattingEnabled = true;
-            this.cb_cust_id.Location = new System.Drawing.Point(814, 46);
+            this.cb_cust_id.Location = new System.Drawing.Point(814, 47);
             this.cb_cust_id.Margin = new System.Windows.Forms.Padding(20);
             this.cb_cust_id.Name = "cb_cust_id";
             this.cb_cust_id.Size = new System.Drawing.Size(95, 33);
