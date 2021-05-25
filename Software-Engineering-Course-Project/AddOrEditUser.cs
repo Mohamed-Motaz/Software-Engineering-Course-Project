@@ -56,7 +56,7 @@ namespace Software_Engineering_Course_Project
             {
                 userNameTxtBox.Text = dr["username"].ToString();
                 userEmailTxtBox.Text = dr["useremail"].ToString();
-                if (dr["isAdmin"].ToString() == "y")
+                if (dr["isAdmin"].ToString() == "Yes")
                     yesRadioBtn.Checked = true;
                 else
                     noRadioBtn.Checked = true;
@@ -77,7 +77,7 @@ namespace Software_Engineering_Course_Project
             cmd.CommandText = "update users set username=:username, useremail=:useremail, isAdmin=:isAdmin, salary=:salary where userid=:userid";
             cmd.Parameters.Add("username", userNameTxtBox.Text);
             cmd.Parameters.Add("useremail", userEmailTxtBox.Text);
-            cmd.Parameters.Add("isAdmin", yesRadioBtn.Checked ? "y" : "n");
+            cmd.Parameters.Add("isAdmin", yesRadioBtn.Checked ? "Yes" : "No");
             cmd.Parameters.Add("salary", salaryTxtBox.Text);       
             cmd.Parameters.Add("userid", textVersionComboBox.Text);
 
@@ -107,7 +107,7 @@ namespace Software_Engineering_Course_Project
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "insert into users values (:userid, :isAdmin,:username, :useremail, :salary)";
             cmd.Parameters.Add("userid", textVersionComboBox.Text);           
-            cmd.Parameters.Add("isAdmin", yesRadioBtn.Checked ? "y" : "n");
+            cmd.Parameters.Add("isAdmin", yesRadioBtn.Checked ? "Yes" : "No");
 
             cmd.Parameters.Add("username", userNameTxtBox.Text);
             cmd.Parameters.Add("useremail", userEmailTxtBox.Text);

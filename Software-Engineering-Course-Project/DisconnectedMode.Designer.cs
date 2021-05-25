@@ -47,9 +47,9 @@
             this.groupBox1.Controls.Add(this.radioUser);
             this.groupBox1.Controls.Add(this.radioCust);
             this.groupBox1.Location = new System.Drawing.Point(519, 15);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(267, 123);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
@@ -58,7 +58,7 @@
             // 
             this.radioUser.AutoSize = true;
             this.radioUser.Location = new System.Drawing.Point(59, 76);
-            this.radioUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioUser.Margin = new System.Windows.Forms.Padding(4);
             this.radioUser.Name = "radioUser";
             this.radioUser.Size = new System.Drawing.Size(140, 21);
             this.radioUser.TabIndex = 1;
@@ -70,7 +70,7 @@
             // 
             this.radioCust.AutoSize = true;
             this.radioCust.Location = new System.Drawing.Point(56, 36);
-            this.radioCust.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioCust.Margin = new System.Windows.Forms.Padding(4);
             this.radioCust.Name = "radioCust";
             this.radioCust.Size = new System.Drawing.Size(170, 21);
             this.radioCust.TabIndex = 0;
@@ -81,7 +81,7 @@
             // loadBtn
             // 
             this.loadBtn.Location = new System.Drawing.Point(577, 145);
-            this.loadBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.loadBtn.Margin = new System.Windows.Forms.Padding(4);
             this.loadBtn.Name = "loadBtn";
             this.loadBtn.Size = new System.Drawing.Size(169, 41);
             this.loadBtn.TabIndex = 8;
@@ -91,8 +91,8 @@
             // 
             // saveBtn
             // 
-            this.saveBtn.Location = new System.Drawing.Point(609, 886);
-            this.saveBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.saveBtn.Location = new System.Drawing.Point(594, 745);
+            this.saveBtn.Margin = new System.Windows.Forms.Padding(4);
             this.saveBtn.Name = "saveBtn";
             this.saveBtn.Size = new System.Drawing.Size(100, 28);
             this.saveBtn.TabIndex = 9;
@@ -103,7 +103,7 @@
             // searchBtn
             // 
             this.searchBtn.Location = new System.Drawing.Point(1039, 196);
-            this.searchBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.searchBtn.Margin = new System.Windows.Forms.Padding(4);
             this.searchBtn.Name = "searchBtn";
             this.searchBtn.Size = new System.Drawing.Size(111, 36);
             this.searchBtn.TabIndex = 10;
@@ -114,11 +114,11 @@
             // dataGridView
             // 
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Location = new System.Drawing.Point(124, 239);
-            this.dataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView.Location = new System.Drawing.Point(43, 239);
+            this.dataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersWidth = 51;
-            this.dataGridView.Size = new System.Drawing.Size(1061, 622);
+            this.dataGridView.Size = new System.Drawing.Size(1195, 484);
             this.dataGridView.TabIndex = 11;
             // 
             // label1
@@ -137,7 +137,7 @@
             // searchBox
             // 
             this.searchBox.Location = new System.Drawing.Point(244, 202);
-            this.searchBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.searchBox.Margin = new System.Windows.Forms.Padding(4);
             this.searchBox.Name = "searchBox";
             this.searchBox.Size = new System.Drawing.Size(76, 22);
             this.searchBox.TabIndex = 13;
@@ -148,7 +148,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1251, 929);
+            this.ClientSize = new System.Drawing.Size(1251, 799);
             this.Controls.Add(this.searchBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView);
@@ -157,7 +157,8 @@
             this.Controls.Add(this.loadBtn);
             this.Controls.Add(this.groupBox1);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Location = new System.Drawing.Point(-10, -10);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DisconnectedMode";
             this.Text = "DisconnectedMode";
             this.groupBox1.ResumeLayout(false);

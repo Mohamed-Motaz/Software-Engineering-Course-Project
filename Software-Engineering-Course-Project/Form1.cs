@@ -18,21 +18,21 @@ namespace Software_Engineering_Course_Project
         {   "drop table users", 
             "drop table customers",
             @"Create Table Users
-                (userID number(8)  primary key, isAdmin varchar2(1), userName varchar2(50), userEmail varchar2(50) unique, salary number(6))",
+                (userID number(8)  primary key, isAdmin varchar2(3), userName varchar2(50), userEmail varchar2(50) unique, salary number(6))",
             @"Create Table Customers
                 ( CustomerID number(8)  primary key,  CustomerName varchar2(50),  CustomerEmail varchar2(50) unique,  CustomerPlan varchar2(1))" };
 
         private List<string> insertDataScripts = new List<string>() 
         { @"insert into Users values
-            (1, 'y', 'Mohamed Ahmed', 'mohamed.ahmed34@gmail.com', 65500)",
+            (1, 'Yes', 'Mohamed Ahmed', 'mohamed.ahmed34@gmail.com', 65500)",
             @"insert into Users values
-            (2, 'y', 'Rawan Ahmed', 'rawan.ahmed4@gmail.com', 6000)",
+            (2, 'Yes', 'Rawan Ahmed', 'rawan.ahmed4@gmail.com', 6000)",
             @"insert into Users values
-            (3, 'n', 'Kareem Ezzat', 'kareemezzat20@gmail.com', 80000)",
+            (3, 'No', 'Kareem Ezzat', 'kareemezzat20@gmail.com', 80000)",
             @"insert into Users values
-            (4, 'n', 'Mohamed Motaz', 'mohamedmotar87@gmail.com', 7542)",
+            (4, 'No', 'Mohamed Motaz', 'mohamedmotar87@gmail.com', 7542)",
             @"insert into Users values
-            (5, 'n', 'Ali Anwar', 'alianwar123@gmail.com', 4000)",
+            (5, 'No', 'Ali Anwar', 'alianwar123@gmail.com', 4000)",
             @"Insert into Customers values
             (1,'Kristen Stewart', 'Kristen_Stewart@gmail.com','A')",
             @"Insert into Customers values

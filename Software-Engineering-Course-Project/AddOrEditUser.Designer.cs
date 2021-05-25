@@ -49,10 +49,11 @@
             // 
             this.noRadioBtn.AutoSize = true;
             this.noRadioBtn.BackColor = System.Drawing.Color.Transparent;
+            this.noRadioBtn.Checked = true;
             this.noRadioBtn.Font = new System.Drawing.Font("Comic Sans MS", 15.75F);
             this.noRadioBtn.ForeColor = System.Drawing.Color.Transparent;
             this.noRadioBtn.Location = new System.Drawing.Point(188, 308);
-            this.noRadioBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.noRadioBtn.Margin = new System.Windows.Forms.Padding(4);
             this.noRadioBtn.Name = "noRadioBtn";
             this.noRadioBtn.Size = new System.Drawing.Size(74, 42);
             this.noRadioBtn.TabIndex = 28;
@@ -67,11 +68,10 @@
             this.yesRadioBtn.Font = new System.Drawing.Font("Comic Sans MS", 15.75F);
             this.yesRadioBtn.ForeColor = System.Drawing.Color.Transparent;
             this.yesRadioBtn.Location = new System.Drawing.Point(57, 308);
-            this.yesRadioBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.yesRadioBtn.Margin = new System.Windows.Forms.Padding(4);
             this.yesRadioBtn.Name = "yesRadioBtn";
             this.yesRadioBtn.Size = new System.Drawing.Size(84, 42);
             this.yesRadioBtn.TabIndex = 27;
-            this.yesRadioBtn.TabStop = true;
             this.yesRadioBtn.Text = "Yes";
             this.yesRadioBtn.UseVisualStyleBackColor = false;
             // 
@@ -87,7 +87,7 @@
             // salaryTxtBox
             // 
             this.salaryTxtBox.Location = new System.Drawing.Point(188, 224);
-            this.salaryTxtBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.salaryTxtBox.Margin = new System.Windows.Forms.Padding(4);
             this.salaryTxtBox.Name = "salaryTxtBox";
             this.salaryTxtBox.Size = new System.Drawing.Size(219, 22);
             this.salaryTxtBox.TabIndex = 25;
@@ -95,7 +95,7 @@
             // userEmailTxtBox
             // 
             this.userEmailTxtBox.Location = new System.Drawing.Point(241, 174);
-            this.userEmailTxtBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.userEmailTxtBox.Margin = new System.Windows.Forms.Padding(4);
             this.userEmailTxtBox.Name = "userEmailTxtBox";
             this.userEmailTxtBox.Size = new System.Drawing.Size(165, 22);
             this.userEmailTxtBox.TabIndex = 19;
@@ -103,7 +103,7 @@
             // userNameTxtBox
             // 
             this.userNameTxtBox.Location = new System.Drawing.Point(233, 127);
-            this.userNameTxtBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.userNameTxtBox.Margin = new System.Windows.Forms.Padding(4);
             this.userNameTxtBox.Name = "userNameTxtBox";
             this.userNameTxtBox.Size = new System.Drawing.Size(173, 22);
             this.userNameTxtBox.TabIndex = 18;
@@ -112,7 +112,7 @@
             // 
             this.textVersionComboBox.FormattingEnabled = true;
             this.textVersionComboBox.Location = new System.Drawing.Point(203, 71);
-            this.textVersionComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textVersionComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.textVersionComboBox.Name = "textVersionComboBox";
             this.textVersionComboBox.Size = new System.Drawing.Size(204, 24);
             this.textVersionComboBox.TabIndex = 17;
@@ -193,7 +193,7 @@
             this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSave.Location = new System.Drawing.Point(359, 443);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(135, 47);
             this.btnSave.TabIndex = 34;
@@ -243,7 +243,7 @@
             this.Controls.Add(this.userNameTxtBox);
             this.Controls.Add(this.textVersionComboBox);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddOrEditUser";
             this.Text = "AddOrEditUser";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddOrEditUser_FormClosing);
