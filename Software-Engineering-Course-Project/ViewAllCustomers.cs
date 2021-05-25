@@ -44,6 +44,20 @@ namespace Software_Engineering_Course_Project
                 });
             }
             dr.Close();
+            foreach(Customer newcustomer in customers)
+            {
+                NewListItem newList = new NewListItem();
+                newList.Name = newcustomer.name;
+                newList.ID = newcustomer.id;
+                newList.Email = newcustomer.email;
+                newList.Plan = newcustomer.plan;
+
+                if (flowLayoutPanel1.Controls.Count < 0)
+                    flowLayoutPanel1.Controls.Clear();
+                else
+                    flowLayoutPanel1.Controls.Add(newList);
+            }
+
         }
 
         private void ViewAllCustomers_FormClosing(object sender, FormClosingEventArgs e)

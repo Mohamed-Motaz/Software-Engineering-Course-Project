@@ -127,6 +127,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListItem.Designer.cs">
+      <DependentUpon>ListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewListItem.Designer.cs">
+      <DependentUpon>NewListItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="SummReport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +192,12 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListItem.resx">
+      <DependentUpon>ListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewListItem.resx">
+      <DependentUpon>NewListItem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -188,6 +206,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Report.resx">
       <DependentUpon>Report.cs</DependentUpon>
@@ -216,6 +235,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\engz2-jpg.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

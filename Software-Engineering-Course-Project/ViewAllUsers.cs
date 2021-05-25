@@ -40,11 +40,33 @@ namespace Software_Engineering_Course_Project
                 name = dr["username"].ToString(), salary= dr["salary"].ToString()});
             }
             dr.Close();
+
+            foreach(User newuser in users)
+            {
+                ListItem newList = new ListItem();
+                newList.Name = newuser.name;
+                newList.ID = newuser.id;
+                newList.Email = newuser.email;
+                newList.Admin = newuser.isAdmin;
+                newList.Salary = newuser.salary;
+
+                if (flowLayoutPanel1.Controls.Count < 0)
+                    flowLayoutPanel1.Controls.Clear();
+                else
+                    flowLayoutPanel1.Controls.Add(newList);
+
+            }
+
         }
 
         private void ViewAllUsers_FormClosing(object sender, FormClosingEventArgs e)
         {
             conn.Dispose();
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
     class User

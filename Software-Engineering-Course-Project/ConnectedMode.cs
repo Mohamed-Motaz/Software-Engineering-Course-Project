@@ -39,5 +39,17 @@ namespace Software_Engineering_Course_Project
             AddOrEditCustomer form = new AddOrEditCustomer();
             form.Show();
         }
+
+        private void viewAllUsersBtn_Click(object sender, EventArgs e)
+        {
+            ViewAllUsers view = new ViewAllUsers();
+            view.Show();
+        }
+
+        private void viewAllCustomersBtn_Click(object sender, EventArgs e)
+        {
+            ViewAllCustomers view = new ViewAllCustomers();
+            view.Show();
+        }
     }
 }

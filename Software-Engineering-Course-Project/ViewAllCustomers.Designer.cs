@@ -28,14 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.SuspendLayout();
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 12);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(909, 530);
+            this.flowLayoutPanel1.TabIndex = 0;
             // 
             // ViewAllCustomers
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(863, 554);
+            this.Controls.Add(this.flowLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "ViewAllCustomers";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ViewAllCustomers";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ViewAllCustomers_FormClosing);
             this.Load += new System.EventHandler(this.ViewAllCustomers_Load);
@@ -44,5 +57,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
