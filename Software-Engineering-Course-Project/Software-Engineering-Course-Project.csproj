@@ -206,7 +206,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Report.resx">
       <DependentUpon>Report.cs</DependentUpon>
@@ -237,7 +236,15 @@
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\engz2-jpg.jpg" />
+    <Content Include="images\1.jpeg" />
+    <Content Include="images\2.jpeg" />
+    <Content Include="images\3.jpeg" />
+    <Content Include="images\4.jpeg" />
+    <Content Include="images\5.PNG" />
+    <Content Include="images\6.PNG" />
+    <Content Include="images\7.PNG" />
+    <Content Include="images\8.PNG" />
+    <Content Include="images\engz2-jpg.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

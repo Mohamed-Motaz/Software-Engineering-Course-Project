@@ -116,5 +116,24 @@ namespace Software_Engineering_Course_Project
             if (r != -1)
                 MessageBox.Show("User successfully created");
         }
+
+        private void deleteBtn_Click(object sender, EventArgs e)
+        {
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "delete from users where userid =:id";
+            cmd.Parameters.Add("id", textVersionComboBox.SelectedItem.ToString());
+
+            if ((cmd.ExecuteNonQuery()) != -1)
+            {
+                textVersionComboBox.Items.RemoveAt(textVersionComboBox.SelectedIndex);
+                textVersionComboBox.Text = "";
+                userNameTxtBox.Text = "";
+                userEmailTxtBox.Text = "";
+                salaryTxtBox.Text = "";
+                MessageBox.Show("User is deleted");
+            }
+            else { MessageBox.Show("Select User to delete"); }
+        }
     }
 }

@@ -42,6 +42,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
+            this.deleteBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // noRadioBtn
@@ -50,9 +51,10 @@
             this.noRadioBtn.BackColor = System.Drawing.Color.Transparent;
             this.noRadioBtn.Font = new System.Drawing.Font("Comic Sans MS", 15.75F);
             this.noRadioBtn.ForeColor = System.Drawing.Color.Transparent;
-            this.noRadioBtn.Location = new System.Drawing.Point(141, 250);
+            this.noRadioBtn.Location = new System.Drawing.Point(188, 308);
+            this.noRadioBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.noRadioBtn.Name = "noRadioBtn";
-            this.noRadioBtn.Size = new System.Drawing.Size(59, 33);
+            this.noRadioBtn.Size = new System.Drawing.Size(74, 42);
             this.noRadioBtn.TabIndex = 28;
             this.noRadioBtn.TabStop = true;
             this.noRadioBtn.Text = "No";
@@ -64,9 +66,10 @@
             this.yesRadioBtn.BackColor = System.Drawing.Color.Transparent;
             this.yesRadioBtn.Font = new System.Drawing.Font("Comic Sans MS", 15.75F);
             this.yesRadioBtn.ForeColor = System.Drawing.Color.Transparent;
-            this.yesRadioBtn.Location = new System.Drawing.Point(43, 250);
+            this.yesRadioBtn.Location = new System.Drawing.Point(57, 308);
+            this.yesRadioBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.yesRadioBtn.Name = "yesRadioBtn";
-            this.yesRadioBtn.Size = new System.Drawing.Size(65, 33);
+            this.yesRadioBtn.Size = new System.Drawing.Size(84, 42);
             this.yesRadioBtn.TabIndex = 27;
             this.yesRadioBtn.TabStop = true;
             this.yesRadioBtn.Text = "Yes";
@@ -75,38 +78,43 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(69, 247);
+            this.label8.Location = new System.Drawing.Point(92, 304);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(0, 13);
+            this.label8.Size = new System.Drawing.Size(0, 17);
             this.label8.TabIndex = 26;
             // 
             // salaryTxtBox
             // 
-            this.salaryTxtBox.Location = new System.Drawing.Point(141, 182);
+            this.salaryTxtBox.Location = new System.Drawing.Point(188, 224);
+            this.salaryTxtBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.salaryTxtBox.Name = "salaryTxtBox";
-            this.salaryTxtBox.Size = new System.Drawing.Size(165, 20);
+            this.salaryTxtBox.Size = new System.Drawing.Size(219, 22);
             this.salaryTxtBox.TabIndex = 25;
             // 
             // userEmailTxtBox
             // 
-            this.userEmailTxtBox.Location = new System.Drawing.Point(181, 141);
+            this.userEmailTxtBox.Location = new System.Drawing.Point(241, 174);
+            this.userEmailTxtBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.userEmailTxtBox.Name = "userEmailTxtBox";
-            this.userEmailTxtBox.Size = new System.Drawing.Size(125, 20);
+            this.userEmailTxtBox.Size = new System.Drawing.Size(165, 22);
             this.userEmailTxtBox.TabIndex = 19;
             // 
             // userNameTxtBox
             // 
-            this.userNameTxtBox.Location = new System.Drawing.Point(175, 103);
+            this.userNameTxtBox.Location = new System.Drawing.Point(233, 127);
+            this.userNameTxtBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.userNameTxtBox.Name = "userNameTxtBox";
-            this.userNameTxtBox.Size = new System.Drawing.Size(131, 20);
+            this.userNameTxtBox.Size = new System.Drawing.Size(173, 22);
             this.userNameTxtBox.TabIndex = 18;
             // 
             // textVersionComboBox
             // 
             this.textVersionComboBox.FormattingEnabled = true;
-            this.textVersionComboBox.Location = new System.Drawing.Point(152, 58);
+            this.textVersionComboBox.Location = new System.Drawing.Point(203, 71);
+            this.textVersionComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textVersionComboBox.Name = "textVersionComboBox";
-            this.textVersionComboBox.Size = new System.Drawing.Size(154, 21);
+            this.textVersionComboBox.Size = new System.Drawing.Size(204, 24);
             this.textVersionComboBox.TabIndex = 17;
             this.textVersionComboBox.SelectedIndexChanged += new System.EventHandler(this.textVersionComboBox_SelectedIndexChanged);
             // 
@@ -116,9 +124,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(49, 50);
+            this.label2.Location = new System.Drawing.Point(65, 62);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 29);
+            this.label2.Size = new System.Drawing.Size(128, 38);
             this.label2.TabIndex = 29;
             this.label2.Text = "User ID:";
             // 
@@ -128,9 +137,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(49, 94);
+            this.label1.Location = new System.Drawing.Point(65, 116);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 29);
+            this.label1.Size = new System.Drawing.Size(166, 38);
             this.label1.TabIndex = 30;
             this.label1.Text = "User Name:";
             // 
@@ -140,9 +150,10 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(49, 132);
+            this.label3.Location = new System.Drawing.Point(65, 162);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 29);
+            this.label3.Size = new System.Drawing.Size(160, 38);
             this.label3.TabIndex = 31;
             this.label3.Text = "User Email:";
             // 
@@ -152,9 +163,10 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Transparent;
-            this.label5.Location = new System.Drawing.Point(49, 218);
+            this.label5.Location = new System.Drawing.Point(65, 268);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(108, 29);
+            this.label5.Size = new System.Drawing.Size(139, 38);
             this.label5.TabIndex = 32;
             this.label5.Text = "Is Admin:";
             // 
@@ -164,9 +176,10 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(49, 173);
+            this.label6.Location = new System.Drawing.Point(65, 213);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(83, 29);
+            this.label6.Size = new System.Drawing.Size(106, 38);
             this.label6.TabIndex = 33;
             this.label6.Text = "Salary:";
             // 
@@ -179,22 +192,43 @@
             this.btnSave.ForeColor = System.Drawing.Color.Transparent;
             this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSave.Location = new System.Drawing.Point(161, 359);
+            this.btnSave.Location = new System.Drawing.Point(359, 443);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(101, 38);
+            this.btnSave.Size = new System.Drawing.Size(135, 47);
             this.btnSave.TabIndex = 34;
             this.btnSave.Text = "Save";
             this.btnSave.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
+            // deleteBtn
+            // 
+            this.deleteBtn.BackColor = System.Drawing.Color.Transparent;
+            this.deleteBtn.FlatAppearance.BorderSize = 0;
+            this.deleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.deleteBtn.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deleteBtn.ForeColor = System.Drawing.Color.Transparent;
+            this.deleteBtn.Image = ((System.Drawing.Image)(resources.GetObject("deleteBtn.Image")));
+            this.deleteBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.deleteBtn.Location = new System.Drawing.Point(103, 443);
+            this.deleteBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.deleteBtn.Name = "deleteBtn";
+            this.deleteBtn.Size = new System.Drawing.Size(159, 47);
+            this.deleteBtn.TabIndex = 36;
+            this.deleteBtn.Text = "Delete ";
+            this.deleteBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.deleteBtn.UseVisualStyleBackColor = false;
+            this.deleteBtn.Click += new System.EventHandler(this.deleteBtn_Click);
+            // 
             // AddOrEditUser
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(475, 409);
+            this.ClientSize = new System.Drawing.Size(633, 503);
+            this.Controls.Add(this.deleteBtn);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -209,6 +243,7 @@
             this.Controls.Add(this.userNameTxtBox);
             this.Controls.Add(this.textVersionComboBox);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AddOrEditUser";
             this.Text = "AddOrEditUser";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddOrEditUser_FormClosing);
@@ -233,5 +268,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button deleteBtn;
     }
 }

@@ -145,5 +145,24 @@ namespace Software_Engineering_Course_Project
             }
             return present;
         }
+
+        private void deleteBtn_Click(object sender, EventArgs e)
+        {
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "delete from customers where CUSTOMERID =:id";
+            cmd.Parameters.Add("id", textVersionComboBox.SelectedItem.ToString());
+
+            if ((cmd.ExecuteNonQuery()) != -1)
+            {
+                textVersionComboBox.Items.RemoveAt(textVersionComboBox.SelectedIndex);
+                textVersionComboBox.Text = "";
+                customerNameTxtBox.Text = "";
+                customerEmailTxtBox.Text = "";
+                customerPlanComboBox.Text = "";
+                MessageBox.Show("Customer is deleted");
+            }
+            else { MessageBox.Show("Select customer to delete"); }
+        }
     }
 }

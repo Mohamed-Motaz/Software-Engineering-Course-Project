@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ListItem));
             this.label1 = new System.Windows.Forms.Label();
             this.nameLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -47,9 +48,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(159, 20);
+            this.label1.Location = new System.Drawing.Point(182, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 17);
+            this.label1.Size = new System.Drawing.Size(87, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "User Name :";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -58,18 +59,18 @@
             // 
             this.nameLabel.AutoSize = true;
             this.nameLabel.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.nameLabel.Location = new System.Drawing.Point(250, 20);
+            this.nameLabel.Location = new System.Drawing.Point(286, 20);
             this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(43, 17);
+            this.nameLabel.Size = new System.Drawing.Size(45, 17);
             this.nameLabel.TabIndex = 1;
             this.nameLabel.Text = "Name";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(159, 52);
+            this.label2.Location = new System.Drawing.Point(182, 52);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 17);
+            this.label2.Size = new System.Drawing.Size(63, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "User ID :";
             // 
@@ -77,18 +78,18 @@
             // 
             this.idLabel.AutoSize = true;
             this.idLabel.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.idLabel.Location = new System.Drawing.Point(271, 52);
+            this.idLabel.Location = new System.Drawing.Point(310, 52);
             this.idLabel.Name = "idLabel";
-            this.idLabel.Size = new System.Drawing.Size(22, 17);
+            this.idLabel.Size = new System.Drawing.Size(21, 17);
             this.idLabel.TabIndex = 3;
             this.idLabel.Text = "ID";
             // 
             // email
             // 
             this.email.AutoSize = true;
-            this.email.Location = new System.Drawing.Point(363, 20);
+            this.email.Location = new System.Drawing.Point(415, 20);
             this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(79, 17);
+            this.email.Size = new System.Drawing.Size(84, 17);
             this.email.TabIndex = 4;
             this.email.Text = "User Email :";
             // 
@@ -96,18 +97,18 @@
             // 
             this.email_label.AutoSize = true;
             this.email_label.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.email_label.Location = new System.Drawing.Point(496, 20);
+            this.email_label.Location = new System.Drawing.Point(567, 20);
             this.email_label.Name = "email_label";
-            this.email_label.Size = new System.Drawing.Size(39, 17);
+            this.email_label.Size = new System.Drawing.Size(42, 17);
             this.email_label.TabIndex = 5;
             this.email_label.Text = "Email";
             // 
             // sss
             // 
             this.sss.AutoSize = true;
-            this.sss.Location = new System.Drawing.Point(363, 61);
+            this.sss.Location = new System.Drawing.Point(415, 61);
             this.sss.Name = "sss";
-            this.sss.Size = new System.Drawing.Size(71, 17);
+            this.sss.Size = new System.Drawing.Size(73, 17);
             this.sss.TabIndex = 6;
             this.sss.Text = "Is Admin ?";
             // 
@@ -115,18 +116,18 @@
             // 
             this.admin_label.AutoSize = true;
             this.admin_label.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.admin_label.Location = new System.Drawing.Point(490, 61);
+            this.admin_label.Location = new System.Drawing.Point(560, 61);
             this.admin_label.Name = "admin_label";
-            this.admin_label.Size = new System.Drawing.Size(45, 17);
+            this.admin_label.Size = new System.Drawing.Size(46, 17);
             this.admin_label.TabIndex = 7;
             this.admin_label.Text = "admin";
             // 
             // ss
             // 
             this.ss.AutoSize = true;
-            this.ss.Location = new System.Drawing.Point(157, 84);
+            this.ss.Location = new System.Drawing.Point(179, 84);
             this.ss.Name = "ss";
-            this.ss.Size = new System.Drawing.Size(85, 17);
+            this.ss.Size = new System.Drawing.Size(90, 17);
             this.ss.TabIndex = 8;
             this.ss.Text = "User Salary :";
             // 
@@ -134,9 +135,9 @@
             // 
             this.salaryLabel.AutoSize = true;
             this.salaryLabel.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.salaryLabel.Location = new System.Drawing.Point(271, 84);
+            this.salaryLabel.Location = new System.Drawing.Point(310, 84);
             this.salaryLabel.Name = "salaryLabel";
-            this.salaryLabel.Size = new System.Drawing.Size(45, 17);
+            this.salaryLabel.Size = new System.Drawing.Size(48, 17);
             this.salaryLabel.TabIndex = 9;
             this.salaryLabel.Text = "Salary";
             // 
@@ -145,21 +146,21 @@
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel1.Location = new System.Drawing.Point(3, 137);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(859, 10);
+            this.panel1.Size = new System.Drawing.Size(982, 10);
             this.panel1.TabIndex = 10;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Software_Engineering_Course_Project.Properties.Resources.engz2_jpg;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(3, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(104, 98);
+            this.pictureBox1.Size = new System.Drawing.Size(119, 98);
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
             // ListItem
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.Controls.Add(this.pictureBox1);
@@ -175,7 +176,7 @@
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.label1);
             this.Name = "ListItem";
-            this.Size = new System.Drawing.Size(801, 150);
+            this.Size = new System.Drawing.Size(915, 150);
             this.Load += new System.EventHandler(this.ListItem_Load);
             this.MouseLeave += new System.EventHandler(this.ListItem_MouseLeave);
             this.MouseHover += new System.EventHandler(this.ListItem_MouseHover);

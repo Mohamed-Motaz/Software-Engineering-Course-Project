@@ -46,18 +46,21 @@
             // 
             this.groupBox1.Controls.Add(this.radioUser);
             this.groupBox1.Controls.Add(this.radioCust);
-            this.groupBox1.Location = new System.Drawing.Point(389, 12);
+            this.groupBox1.Location = new System.Drawing.Point(519, 15);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 100);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(267, 123);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             // 
             // radioUser
             // 
             this.radioUser.AutoSize = true;
-            this.radioUser.Location = new System.Drawing.Point(44, 62);
+            this.radioUser.Location = new System.Drawing.Point(59, 76);
+            this.radioUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioUser.Name = "radioUser";
-            this.radioUser.Size = new System.Drawing.Size(107, 17);
+            this.radioUser.Size = new System.Drawing.Size(140, 21);
             this.radioUser.TabIndex = 1;
             this.radioUser.TabStop = true;
             this.radioUser.Text = "Users Information";
@@ -66,9 +69,10 @@
             // radioCust
             // 
             this.radioCust.AutoSize = true;
-            this.radioCust.Location = new System.Drawing.Point(42, 29);
+            this.radioCust.Location = new System.Drawing.Point(56, 36);
+            this.radioCust.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioCust.Name = "radioCust";
-            this.radioCust.Size = new System.Drawing.Size(129, 17);
+            this.radioCust.Size = new System.Drawing.Size(170, 21);
             this.radioCust.TabIndex = 0;
             this.radioCust.TabStop = true;
             this.radioCust.Text = "Customers Information";
@@ -76,9 +80,10 @@
             // 
             // loadBtn
             // 
-            this.loadBtn.Location = new System.Drawing.Point(433, 118);
+            this.loadBtn.Location = new System.Drawing.Point(577, 145);
+            this.loadBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.loadBtn.Name = "loadBtn";
-            this.loadBtn.Size = new System.Drawing.Size(127, 33);
+            this.loadBtn.Size = new System.Drawing.Size(169, 41);
             this.loadBtn.TabIndex = 8;
             this.loadBtn.Text = "Load Information";
             this.loadBtn.UseVisualStyleBackColor = true;
@@ -86,9 +91,10 @@
             // 
             // saveBtn
             // 
-            this.saveBtn.Location = new System.Drawing.Point(457, 720);
+            this.saveBtn.Location = new System.Drawing.Point(609, 886);
+            this.saveBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(75, 23);
+            this.saveBtn.Size = new System.Drawing.Size(100, 28);
             this.saveBtn.TabIndex = 9;
             this.saveBtn.Text = "SAVE";
             this.saveBtn.UseVisualStyleBackColor = true;
@@ -96,9 +102,10 @@
             // 
             // searchBtn
             // 
-            this.searchBtn.Location = new System.Drawing.Point(779, 159);
+            this.searchBtn.Location = new System.Drawing.Point(1039, 196);
+            this.searchBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.searchBtn.Name = "searchBtn";
-            this.searchBtn.Size = new System.Drawing.Size(83, 29);
+            this.searchBtn.Size = new System.Drawing.Size(111, 36);
             this.searchBtn.TabIndex = 10;
             this.searchBtn.Text = "SEARCH";
             this.searchBtn.UseVisualStyleBackColor = true;
@@ -107,35 +114,41 @@
             // dataGridView
             // 
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Location = new System.Drawing.Point(93, 194);
+            this.dataGridView.Location = new System.Drawing.Point(124, 239);
+            this.dataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView.Name = "dataGridView";
-            this.dataGridView.Size = new System.Drawing.Size(796, 505);
+            this.dataGridView.RowHeadersWidth = 51;
+            this.dataGridView.Size = new System.Drawing.Size(1061, 622);
             this.dataGridView.TabIndex = 11;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.label1.Location = new System.Drawing.Point(101, 169);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(134, 203);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 13);
+            this.label1.Size = new System.Drawing.Size(102, 18);
             this.label1.TabIndex = 12;
             this.label1.Text = "Search By ID :";
             // 
             // searchBox
             // 
-            this.searchBox.Location = new System.Drawing.Point(183, 164);
+            this.searchBox.Location = new System.Drawing.Point(244, 202);
+            this.searchBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.searchBox.Name = "searchBox";
-            this.searchBox.Size = new System.Drawing.Size(58, 20);
+            this.searchBox.Size = new System.Drawing.Size(76, 22);
             this.searchBox.TabIndex = 13;
             // 
             // DisconnectedMode
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(938, 755);
+            this.ClientSize = new System.Drawing.Size(1251, 929);
             this.Controls.Add(this.searchBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView);
@@ -144,6 +157,7 @@
             this.Controls.Add(this.loadBtn);
             this.Controls.Add(this.groupBox1);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "DisconnectedMode";
             this.Text = "DisconnectedMode";
             this.groupBox1.ResumeLayout(false);
