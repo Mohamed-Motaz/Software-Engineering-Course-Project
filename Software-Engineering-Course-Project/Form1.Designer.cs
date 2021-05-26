@@ -157,7 +157,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(11, 525);
+            this.label1.Location = new System.Drawing.Point(6, 428);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(455, 33);
@@ -173,7 +173,7 @@
             this.initializeDataBtn.ForeColor = System.Drawing.Color.White;
             this.initializeDataBtn.Image = ((System.Drawing.Image)(resources.GetObject("initializeDataBtn.Image")));
             this.initializeDataBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.initializeDataBtn.Location = new System.Drawing.Point(162, 566);
+            this.initializeDataBtn.Location = new System.Drawing.Point(17, 476);
             this.initializeDataBtn.Name = "initializeDataBtn";
             this.initializeDataBtn.Size = new System.Drawing.Size(245, 36);
             this.initializeDataBtn.TabIndex = 17;
