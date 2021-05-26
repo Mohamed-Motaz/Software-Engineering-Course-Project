@@ -64,6 +64,14 @@ namespace Software_Engineering_Course_Project
         {
             conn.Dispose();
         }
+
+        private void BackBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ConnectedMode form = new ConnectedMode();
+            form.ShowDialog();
+            this.Close();
+        }
     }
     class Customer
     {

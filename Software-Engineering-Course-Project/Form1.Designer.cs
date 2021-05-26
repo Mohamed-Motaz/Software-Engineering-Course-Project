@@ -173,7 +173,7 @@
             this.initializeDataBtn.ForeColor = System.Drawing.Color.White;
             this.initializeDataBtn.Image = ((System.Drawing.Image)(resources.GetObject("initializeDataBtn.Image")));
             this.initializeDataBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.initializeDataBtn.Location = new System.Drawing.Point(128, 561);
+            this.initializeDataBtn.Location = new System.Drawing.Point(162, 566);
             this.initializeDataBtn.Name = "initializeDataBtn";
             this.initializeDataBtn.Size = new System.Drawing.Size(245, 36);
             this.initializeDataBtn.TabIndex = 17;

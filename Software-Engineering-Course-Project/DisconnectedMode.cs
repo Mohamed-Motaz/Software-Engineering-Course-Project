@@ -67,5 +67,12 @@ namespace Software_Engineering_Course_Project
             dataGridView.DataSource = ds.Tables[0];
         }
 
+        private void BackBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 form = new Form1();
+            form.ShowDialog();
+            this.Close();
+        }
     }
 }

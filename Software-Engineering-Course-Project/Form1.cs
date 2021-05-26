@@ -61,27 +61,35 @@ namespace Software_Engineering_Course_Project
 
         private void connectedBtn_Click(object sender, EventArgs e)
         {
+            this.Hide();
             ConnectedMode form = new ConnectedMode();
-            form.Show();
+            form.ShowDialog();
+            this.Close();
         }
 
         private void disconnectedBtn_Click(object sender, EventArgs e)
         {
+            this.Hide();
             DisconnectedMode form = new DisconnectedMode();
-            form.Show();
+            form.ShowDialog();
+            this.Close();
         }
 
         private void reportBtn_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Report form = new Report();
-            form.Show();
+            form.ShowDialog();
+            this.Close();
         }
 
 
         private void summReportBtn_Click(object sender, EventArgs e)
         {
+            this.Hide();
             SummReport form = new SummReport();
-            form.Show();
+            form.ShowDialog();
+            this.Close();
         }
 
         private void initializeDataBtn_Click(object sender, EventArgs e)

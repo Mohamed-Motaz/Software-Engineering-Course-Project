@@ -93,5 +93,13 @@ namespace Software_Engineering_Course_Project
             cb_cust_id.Enabled = false;
             cb_plan.Enabled = true;
         }
+
+        private void BackBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 form = new Form1();
+            form.ShowDialog();
+            this.Close();
+        }
     }
 }

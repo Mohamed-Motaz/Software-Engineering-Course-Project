@@ -36,6 +36,7 @@
             this.viewAllUsersBtn = new System.Windows.Forms.Button();
             this.addOrEditCustomerBtn = new System.Windows.Forms.Button();
             this.viewAllCustomersBtn = new System.Windows.Forms.Button();
+            this.BackBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label2
@@ -44,9 +45,9 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(0, 107);
+            this.label2.Location = new System.Drawing.Point(0, 87);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(148, 38);
+            this.label2.Size = new System.Drawing.Size(113, 29);
             this.label2.TabIndex = 1;
             this.label2.Text = "Text Type";
             // 
@@ -56,9 +57,9 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 15.75F);
             this.label3.ForeColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(0, 300);
+            this.label3.Location = new System.Drawing.Point(0, 273);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(312, 38);
+            this.label3.Size = new System.Drawing.Size(241, 29);
             this.label3.TabIndex = 2;
             this.label3.Text = "Stored Procedure Type";
             // 
@@ -68,10 +69,10 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Transparent;
-            this.label4.Location = new System.Drawing.Point(97, 11);
+            this.label4.Location = new System.Drawing.Point(78, 12);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(395, 42);
+            this.label4.Size = new System.Drawing.Size(319, 33);
             this.label4.TabIndex = 21;
             this.label4.Text = "This is the connected mode";
             // 
@@ -84,10 +85,9 @@
             this.addOrEditUserBtn.ForeColor = System.Drawing.Color.Transparent;
             this.addOrEditUserBtn.Image = ((System.Drawing.Image)(resources.GetObject("addOrEditUserBtn.Image")));
             this.addOrEditUserBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.addOrEditUserBtn.Location = new System.Drawing.Point(6, 158);
-            this.addOrEditUserBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.addOrEditUserBtn.Location = new System.Drawing.Point(5, 128);
             this.addOrEditUserBtn.Name = "addOrEditUserBtn";
-            this.addOrEditUserBtn.Size = new System.Drawing.Size(252, 44);
+            this.addOrEditUserBtn.Size = new System.Drawing.Size(216, 36);
             this.addOrEditUserBtn.TabIndex = 22;
             this.addOrEditUserBtn.Text = "Add Or Edit User";
             this.addOrEditUserBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -103,10 +103,9 @@
             this.viewAllUsersBtn.ForeColor = System.Drawing.Color.Transparent;
             this.viewAllUsersBtn.Image = ((System.Drawing.Image)(resources.GetObject("viewAllUsersBtn.Image")));
             this.viewAllUsersBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.viewAllUsersBtn.Location = new System.Drawing.Point(6, 209);
-            this.viewAllUsersBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.viewAllUsersBtn.Location = new System.Drawing.Point(5, 179);
             this.viewAllUsersBtn.Name = "viewAllUsersBtn";
-            this.viewAllUsersBtn.Size = new System.Drawing.Size(215, 44);
+            this.viewAllUsersBtn.Size = new System.Drawing.Size(184, 36);
             this.viewAllUsersBtn.TabIndex = 23;
             this.viewAllUsersBtn.Text = "View All Users";
             this.viewAllUsersBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -122,10 +121,9 @@
             this.addOrEditCustomerBtn.ForeColor = System.Drawing.Color.Transparent;
             this.addOrEditCustomerBtn.Image = ((System.Drawing.Image)(resources.GetObject("addOrEditCustomerBtn.Image")));
             this.addOrEditCustomerBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.addOrEditCustomerBtn.Location = new System.Drawing.Point(6, 353);
-            this.addOrEditCustomerBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.addOrEditCustomerBtn.Location = new System.Drawing.Point(5, 322);
             this.addOrEditCustomerBtn.Name = "addOrEditCustomerBtn";
-            this.addOrEditCustomerBtn.Size = new System.Drawing.Size(304, 47);
+            this.addOrEditCustomerBtn.Size = new System.Drawing.Size(261, 38);
             this.addOrEditCustomerBtn.TabIndex = 24;
             this.addOrEditCustomerBtn.Text = "Add Or Edit Customer";
             this.addOrEditCustomerBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -141,23 +139,41 @@
             this.viewAllCustomersBtn.ForeColor = System.Drawing.Color.Transparent;
             this.viewAllCustomersBtn.Image = ((System.Drawing.Image)(resources.GetObject("viewAllCustomersBtn.Image")));
             this.viewAllCustomersBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.viewAllCustomersBtn.Location = new System.Drawing.Point(6, 407);
-            this.viewAllCustomersBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.viewAllCustomersBtn.Location = new System.Drawing.Point(5, 378);
             this.viewAllCustomersBtn.Name = "viewAllCustomersBtn";
-            this.viewAllCustomersBtn.Size = new System.Drawing.Size(304, 47);
+            this.viewAllCustomersBtn.Size = new System.Drawing.Size(261, 38);
             this.viewAllCustomersBtn.TabIndex = 25;
             this.viewAllCustomersBtn.Text = "View All Customers";
             this.viewAllCustomersBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.viewAllCustomersBtn.UseVisualStyleBackColor = false;
             this.viewAllCustomersBtn.Click += new System.EventHandler(this.viewAllCustomersBtn_Click);
             // 
+            // BackBtn
+            // 
+            this.BackBtn.BackColor = System.Drawing.Color.Transparent;
+            this.BackBtn.FlatAppearance.BorderSize = 0;
+            this.BackBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BackBtn.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BackBtn.ForeColor = System.Drawing.Color.Transparent;
+            this.BackBtn.Image = ((System.Drawing.Image)(resources.GetObject("BackBtn.Image")));
+            this.BackBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BackBtn.Location = new System.Drawing.Point(489, 12);
+            this.BackBtn.Name = "BackBtn";
+            this.BackBtn.Size = new System.Drawing.Size(102, 33);
+            this.BackBtn.TabIndex = 26;
+            this.BackBtn.Text = "Back";
+            this.BackBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BackBtn.UseVisualStyleBackColor = false;
+            this.BackBtn.Click += new System.EventHandler(this.BackBtn_Click);
+            // 
             // ConnectedMode
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(554, 503);
+            this.ClientSize = new System.Drawing.Size(592, 451);
+            this.Controls.Add(this.BackBtn);
             this.Controls.Add(this.viewAllCustomersBtn);
             this.Controls.Add(this.addOrEditCustomerBtn);
             this.Controls.Add(this.viewAllUsersBtn);
@@ -166,7 +182,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "ConnectedMode";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ConnectedMode";
@@ -185,5 +200,6 @@
         private System.Windows.Forms.Button viewAllUsersBtn;
         private System.Windows.Forms.Button addOrEditCustomerBtn;
         private System.Windows.Forms.Button viewAllCustomersBtn;
+        private System.Windows.Forms.Button BackBtn;
     }
 }

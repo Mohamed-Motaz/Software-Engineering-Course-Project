@@ -164,5 +164,13 @@ namespace Software_Engineering_Course_Project
             }
             else { MessageBox.Show("Select customer to delete"); }
         }
+
+        private void BackBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ConnectedMode form = new ConnectedMode();
+            form.ShowDialog();
+            this.Close();
+        }
     }
 }

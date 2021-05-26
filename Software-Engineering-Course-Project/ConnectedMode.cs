@@ -30,26 +30,43 @@ namespace Software_Engineering_Course_Project
 
         private void addOrEditUserBtn_Click(object sender, EventArgs e)
         {
+            this.Hide();
             AddOrEditUser form = new AddOrEditUser();
-            form.Show();
+            form.ShowDialog();
+            this.Close();
         }
 
         private void addOrEditCustomerBtn_Click(object sender, EventArgs e)
         {
+         
+            this.Hide();
             AddOrEditCustomer form = new AddOrEditCustomer();
-            form.Show();
+            form.ShowDialog();
+            this.Close();
         }
 
         private void viewAllUsersBtn_Click(object sender, EventArgs e)
         {
+            this.Hide();
             ViewAllUsers view = new ViewAllUsers();
-            view.Show();
+            view.ShowDialog();
+            this.Close();
         }
 
         private void viewAllCustomersBtn_Click(object sender, EventArgs e)
         {
+            this.Hide();
             ViewAllCustomers view = new ViewAllCustomers();
-            view.Show();
+            view.ShowDialog();
+            this.Close();
+        }
+
+        private void BackBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 form = new Form1();
+            form.ShowDialog();
+            this.Close();
         }
     }
 }
