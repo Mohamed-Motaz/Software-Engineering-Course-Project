@@ -48,11 +48,9 @@
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.radioUser);
             this.groupBox1.Controls.Add(this.radioCust);
-            this.groupBox1.Location = new System.Drawing.Point(471, 15);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(353, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(332, 143);
+            this.groupBox1.Size = new System.Drawing.Size(249, 116);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             // 
@@ -61,10 +59,9 @@
             this.radioUser.AutoSize = true;
             this.radioUser.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioUser.ForeColor = System.Drawing.Color.Transparent;
-            this.radioUser.Location = new System.Drawing.Point(8, 84);
-            this.radioUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioUser.Location = new System.Drawing.Point(6, 68);
             this.radioUser.Name = "radioUser";
-            this.radioUser.Size = new System.Drawing.Size(244, 37);
+            this.radioUser.Size = new System.Drawing.Size(193, 30);
             this.radioUser.TabIndex = 1;
             this.radioUser.TabStop = true;
             this.radioUser.Text = "Users Information";
@@ -75,10 +72,9 @@
             this.radioCust.AutoSize = true;
             this.radioCust.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioCust.ForeColor = System.Drawing.Color.Transparent;
-            this.radioCust.Location = new System.Drawing.Point(8, 23);
-            this.radioCust.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioCust.Location = new System.Drawing.Point(6, 19);
             this.radioCust.Name = "radioCust";
-            this.radioCust.Size = new System.Drawing.Size(293, 37);
+            this.radioCust.Size = new System.Drawing.Size(233, 30);
             this.radioCust.TabIndex = 0;
             this.radioCust.TabStop = true;
             this.radioCust.Text = "Customers Information";
@@ -87,11 +83,10 @@
             // dataGridView
             // 
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Location = new System.Drawing.Point(28, 239);
-            this.dataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView.Location = new System.Drawing.Point(21, 194);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersWidth = 51;
-            this.dataGridView.Size = new System.Drawing.Size(1195, 484);
+            this.dataGridView.Size = new System.Drawing.Size(896, 393);
             this.dataGridView.TabIndex = 11;
             // 
             // label1
@@ -100,19 +95,17 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 14.25F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(21, 199);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(16, 162);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(180, 33);
+            this.label1.Size = new System.Drawing.Size(144, 26);
             this.label1.TabIndex = 12;
             this.label1.Text = "Search By ID :";
             // 
             // searchBox
             // 
-            this.searchBox.Location = new System.Drawing.Point(221, 202);
-            this.searchBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.searchBox.Location = new System.Drawing.Point(166, 164);
             this.searchBox.Name = "searchBox";
-            this.searchBox.Size = new System.Drawing.Size(108, 22);
+            this.searchBox.Size = new System.Drawing.Size(82, 20);
             this.searchBox.TabIndex = 13;
             // 
             // loadBtn
@@ -124,10 +117,9 @@
             this.loadBtn.ForeColor = System.Drawing.Color.White;
             this.loadBtn.Image = ((System.Drawing.Image)(resources.GetObject("loadBtn.Image")));
             this.loadBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.loadBtn.Location = new System.Drawing.Point(493, 186);
-            this.loadBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.loadBtn.Location = new System.Drawing.Point(370, 151);
             this.loadBtn.Name = "loadBtn";
-            this.loadBtn.Size = new System.Drawing.Size(309, 41);
+            this.loadBtn.Size = new System.Drawing.Size(232, 33);
             this.loadBtn.TabIndex = 19;
             this.loadBtn.Text = "Load Information";
             this.loadBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -143,10 +135,9 @@
             this.searchBtn.ForeColor = System.Drawing.Color.White;
             this.searchBtn.Image = ((System.Drawing.Image)(resources.GetObject("searchBtn.Image")));
             this.searchBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.searchBtn.Location = new System.Drawing.Point(1065, 186);
-            this.searchBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.searchBtn.Location = new System.Drawing.Point(799, 151);
             this.searchBtn.Name = "searchBtn";
-            this.searchBtn.Size = new System.Drawing.Size(157, 46);
+            this.searchBtn.Size = new System.Drawing.Size(118, 37);
             this.searchBtn.TabIndex = 20;
             this.searchBtn.Text = "Search";
             this.searchBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -162,10 +153,9 @@
             this.BackBtn.ForeColor = System.Drawing.Color.Transparent;
             this.BackBtn.Image = ((System.Drawing.Image)(resources.GetObject("BackBtn.Image")));
             this.BackBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BackBtn.Location = new System.Drawing.Point(1111, 15);
-            this.BackBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BackBtn.Location = new System.Drawing.Point(833, 12);
             this.BackBtn.Name = "BackBtn";
-            this.BackBtn.Size = new System.Drawing.Size(136, 41);
+            this.BackBtn.Size = new System.Drawing.Size(102, 33);
             this.BackBtn.TabIndex = 27;
             this.BackBtn.Text = "Back";
             this.BackBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -181,10 +171,9 @@
             this.saveBtn.ForeColor = System.Drawing.Color.Transparent;
             this.saveBtn.Image = ((System.Drawing.Image)(resources.GetObject("saveBtn.Image")));
             this.saveBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.saveBtn.Location = new System.Drawing.Point(581, 730);
-            this.saveBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.saveBtn.Location = new System.Drawing.Point(436, 593);
             this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(140, 41);
+            this.saveBtn.Size = new System.Drawing.Size(105, 33);
             this.saveBtn.TabIndex = 28;
             this.saveBtn.Text = "Save";
             this.saveBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -193,11 +182,11 @@
             // 
             // DisconnectedMode
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1251, 778);
+            this.ClientSize = new System.Drawing.Size(938, 634);
             this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.BackBtn);
             this.Controls.Add(this.searchBtn);
@@ -208,7 +197,6 @@
             this.Controls.Add(this.groupBox1);
             this.DoubleBuffered = true;
             this.Location = new System.Drawing.Point(-10, -10);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "DisconnectedMode";
             this.Text = "DisconnectedMode";
             this.groupBox1.ResumeLayout(false);
