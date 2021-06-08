@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Oracle.DataAccess.Types;
+using Oracle.DataAccess.Client;
 using CrystalDecisions.Shared;
 
 namespace Software_Engineering_Course_Project
@@ -15,9 +17,15 @@ namespace Software_Engineering_Course_Project
     {
         CrystalReport1 CR1;
         CrystalReport2 CR2;
+
+        OracleConnection conn;
+        private string connectionString = "data source=orcl; user id=hr; password=hr;";
+
         public Report()
         {
             InitializeComponent();
+            conn = new OracleConnection(connectionString);
+            conn.Open();
         }
 
         private void Report_Load(object sender, EventArgs e)
@@ -25,9 +33,15 @@ namespace Software_Engineering_Course_Project
             CR1 = new CrystalReport1();
             CR2 = new CrystalReport2();
 
-            foreach (ParameterDiscreteValue v in CR1.ParameterFields[0].DefaultValues)
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conn;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandText = "GetAllCustomers";
+            cmd.Parameters.Add("customers", OracleDbType.RefCursor, ParameterDirection.Output);
+            OracleDataReader dr = cmd.ExecuteReader();
+            while (dr.Read())
             {
-                cb_cust_id.Items.Add(v.Value);
+                cb_cust_id.Items.Add(dr["customerid"]);
             }
 
             foreach (ParameterDiscreteValue v in CR2.ParameterFields[0].DefaultValues)
@@ -45,22 +59,7 @@ namespace Software_Engineering_Course_Project
             }
 
         }
-        void radioSelectChange()
-        {
-            if (custReport.Checked)
-            {
-                cb_plan.Enabled = false;
-                CR1.SetParameterValue(0, cb_cust_id.Text);
-                crystalReportViewer1.ReportSource = CR1;
-            }
-            else if (planCustReport.Checked)
-            {
-                cb_plan.Enabled = true;
-                CR2.SetParameterValue(0, cb_plan.Text);
-                crystalReportViewer1.ReportSource = CR2;
-            }
-
-        }
+       
 
         private void generateBtn_Click(object sender, EventArgs e)
         {
