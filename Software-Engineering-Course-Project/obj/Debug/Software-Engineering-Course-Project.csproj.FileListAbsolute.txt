@@ -129,3 +129,9 @@ D:\My projects\Software-Engineering-Course-Project\Software-Engineering-Course-P
 D:\My projects\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software-Engineering-Course-Project.csproj.CopyComplete
 D:\My projects\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software-Engineering-Course-Project.exe
 D:\My projects\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software-Engineering-Course-Project.pdb
+C:\Users\LENOVO\Desktop\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software_Engineering_Course_Project.AddOrEditCustomer.resources
+C:\Users\LENOVO\Desktop\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software_Engineering_Course_Project.AddOrEditUser.resources
+C:\Users\LENOVO\Desktop\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software_Engineering_Course_Project.ListItem.resources
+C:\Users\LENOVO\Desktop\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software_Engineering_Course_Project.NewListItem.resources
+C:\Users\LENOVO\Desktop\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software_Engineering_Course_Project.ViewAllCustomers.resources
+C:\Users\LENOVO\Desktop\Software-Engineering-Course-Project\Software-Engineering-Course-Project\obj\Debug\Software_Engineering_Course_Project.ViewAllUsers.resources
