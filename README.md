@@ -1,7 +1,5 @@
 # Health Insurance System
-# Project Description
-System is going to be critical for our operations as a major health insurance company in Egypt. It will be the main system used by our employees to be able to add, edit, or remove customers and much more. 
-There will also be administrators with additional functionality like accepting or rejecting pending customer addition requests.
+Health insurance system is a windows application with a GUI Using C#, Windows Forms, ODP.Net connected mode, ODP.Net Disconnected mode and crystal reports. 
 # ScreenShots
 ### Home page
  ![Sample Portfolio](https://github.com/Mohamed247/Software-Engineering-Course-Project/blob/master/Software-Engineering-Course-Project/ScreenShots/1.PNG)
